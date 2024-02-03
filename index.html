@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>LogIn_SignIn</title>
+   <link rel="stylesheet" href="CSS/all.min.css">
+   <link rel="stylesheet" href="CSS/style.css">
+   <link rel="shortcut icon" href="./imgs/icon.png" type="image/x-icon">
+</head>
+<body>
+   <section class="logIn_SignIn">
+      <div class="logIn ">
+         <h1><i class="fa-solid fa-hand"></i> Welcome Back <i class="fa-solid fa-hand"></i></h1>
+         <div class="inp">
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" placeholder="your email">
+         </div><!-- email -->
+         <div class="inp">
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" placeholder="your password">
+         </div><!-- password -->
+         <div class="after_pass">
+            <div>
+               <input type="checkbox" id="ch">
+               <label for="ch">Rememder Me</label>
+            </div>
+            <p>forget password</p>
+         </div>
+         <button>Log In</button>
+         <p>Don't have an account ? <span id="reg_login">Register</span></p>
+      </div>
+      <div class="signIn hide">
+         <h1><i class="fa-solid fa-hand"></i> Welcome <i class="fa-solid fa-hand"></i></h1>
+         <div class="inp">
+            <i class="fa-solid fa-envelope"></i>
+            <input type="text" placeholder="your name">
+         </div><!-- name -->
+         <div class="inp">
+            <i class="fa-solid fa-lock"></i>
+            <input type="email" placeholder="your email">
+         </div><!-- email -->
+         <div class="inp">
+            <i class="fa-solid fa-envelope"></i>
+            <input type="password" placeholder="your password">
+         </div><!-- password -->
+         <div class="inp">
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" placeholder="confirm password">
+         </div><!-- confirm password -->
+         <button>Sign In</button>
+         <p>Do you have an account ? <span id="reg_signin">Register</span></p>
+      </div>
+   </section>
+   <script src="js/main.js"></script>
+</body>
+</html>
